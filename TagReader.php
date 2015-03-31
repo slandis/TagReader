@@ -449,7 +449,7 @@ class TagReader {
     $tags->track = $v2->track ? $v2->track : $v1->track;
     $tags->year = $v2->year ? $v2->year : $v1->year;
     $tags->genre = $v2->genre ? $v2->genre : $tags->v1->genre;
-    var_dump($tags);
+
     return $tags;
   }
 
